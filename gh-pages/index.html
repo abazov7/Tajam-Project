@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Tajam Project</title>
+</head>
+<body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$(window).scroll(function() {
+				if($(this).scrollTop() >= 550) {
+					$('header').addClass('sticky');
+				}
+				else {
+					$('header').removeClass('sticky');
+				}
+			});
+		});
+	</script>
+	<header>
+		<div class="container">
+			<a href="#"><img class="logo" src="images/logo.png"></a>
+			<nav>
+				<a class="menu-element" href="#home">Home</a>
+				<a class="menu-element" href="#about">About</a>
+				<a class="menu-element" href="#expertise">Expertise</a>
+				<a class="menu-element" href="#team">Team</a>
+				<a class="menu-element" href="#works">Works</a>
+				<a class="menu-element" href="#peoplesay">People say</a>
+				<a class="menu-element" href="#contact">Contact</a>
+			</nav>
+		</div>
+	</header>
+	<section class="banner">
+		<div class="container">
+			<div class="anchor"><i id="home"></i></div>
+			<h2 class="primarytext">We are Awesome Creative Agency</h2>
+			<p class="secondarytext">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+			Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
+			nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+			Morbi accumsan ipsum velit.</p>
+			<a class="button" href="#">Learn More</a>
+			<div class="bannerpages">
+				<a href="#"><div class="page active"></div></a>
+				<a href="#"><div class="page"></div></a>
+				<a href="#"><div class="page"></div></a>
+				<a href="#"><div class="page"></div></a>
+			</div>
+		</div>
+	</section>
+	<section class="story">
+		<div class="container">
+			<div class="anchor"><i id="about"></i></div>
+			<img class="biglogo" src="images/big-logo.png">
+			<div class="container2">
+				<h2 class="primarytext">Our Story</h2>
+				<p class="secondarytext">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+				Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
+				nibh id elit. Duis sed odio sit amet nibh vulputate cursus<br><br> Morbi accumsan ipsum velit.
+				Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor
+				eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+				<a class="button" href="#">Learn More</a>
+			</div>
+		</div>
+	</section>
+	<section class="video">
+		<div class="container">
+			<a href="#openVideo">
+				<div>
+					<img src="images/playbutton.png" style="display: block; margin: 0 auto">
+					<p>Watch Our Story</p>
+				</div>
+				<div id="openVideo" class="modalDialog">
+					<div>
+						<a href="#close" title="Закрыть" class="close"><img src="images/close.png" height="40px" width="40px"></a>
+						<iframe width="854" height="480" src="https://www.youtube.com/embed/fKopy74weus" frameborder="0" allowfullscreen></iframe>
+					</div>
+				</div>
+			</a>
+		</div>
+	</section>
+	<section class="expertise">
+		<div class="anchor"><i id="expertise"></i></div>
+		<div class="container">
+			<h2 class="primarytext">Expertise</h2>
+			<p class="secondarytext">Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
+			<div class="capabilities">
+				<div class="capability">
+					<img src="images/pc.png">
+					<h3>Web Design &amp; Development</h3>
+					<p class="secondarytext">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+				</div>
+				<div class="capability">
+					<img src="images/brush.png">
+					<h3>Branding Identity</h3>
+					<p class="secondarytext">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+				</div>
+				<div class="capability">
+					<img src="images/phone.png">
+					<h3>Mobile App</h3>
+					<p class="secondarytext">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+				</div>
+				<div class="capability">
+					<img src="images/stats.png">
+					<h3>Search Engine Optimization</h3>
+					<p class="secondarytext">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+				</div>
+				<div class="capability">
+					<img src="images/game.png">
+					<h3>Game Development</h3>
+					<p class="secondarytext">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+				</div>
+				<div class="capability">
+					<img src="images/love.png">
+					<h3>Made with Love</h3>
+					<p class="secondarytext">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="team">
+		<div class="container">
+			<div class="anchor"><i id="team"></i></div>
+			<h2 class="primarytext">Meet our amazing team</h2>
+			<p class="secondarytext">Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
+			<div class="workers">
+				<div class="worker">
+					<img class="avatar" src="images/avatar1.jpg" height="229px" width="220px">
+					<p class="name">Richard Kelly</p>
+					<p class="post">Ceo &amp; Founder</p>
+				</div>
+				<div class="worker">
+					<img class="avatar" src="images/avatar2.jpg" height="229px" width="220px">
+					<p class="name">Xavier Woods</p>
+					<p class="post">Engineer</p>
+				</div>
+				<div class="worker">
+					<img class="avatar" src="images/avatar3.jpg" height="229px" width="220px">
+					<p class="name">James Morrison</p>
+					<p class="post">Designer</p>
+				</div>
+				<div class="worker">
+					<img class="avatar" src="images/avatar4.jpg" height="229px" width="220px">
+					<p class="name">Cody Zeller</p>
+					<p class="post">Marketing</p>
+				</div>
+			</div>
+			<p>Become part of our dream team, join us!</p>
+			<a class="button" href="#">We are Hiring</a>
+		</div>
+	</section>
+	<section class="ourworks">
+		<div class="container clearfix">
+			<div class="anchor"><i id="works"></i></div>
+			<h2 class="primarytext">Our Works</h2>
+			<a class="dribbblelink" href="http://www.dribbble.com">See all projects in Dribble ></a>
+		</div>
+		<div class="portfolio">
+			<div class="work"><p>See the work</p></div>
+			<div class="work"><p>See the work</p></div>
+			<div class="work"><p>See the work</p></div>
+			<div class="work"><p>See the work</p></div>
+			<div class="work"><p>See the work</p></div>
+			<div class="work"><p>See the work</p></div>
+			<div class="work"><p>See the work</p></div>
+			<div class="work"><p>See the work</p></div>
+			<div class="work"><p>See the work</p></div>
+			<div class="work"><p>See the work</p></div>
+			<div class="work"><p>See the work</p></div>
+			<div class="work"><p>See the work</p></div>
+			<div class="work"><p>See the work</p></div>
+			<div class="work"><p>See the work</p></div>
+		</div>
+		<div class="container">
+			<a class="button" style="margin: 0 auto" href="#">Load More</a>
+		</div>
+	</section>
+	<section class="quotes">
+		<div class="container">
+			<div class="anchor"><i id="peoplesay"></i></div>
+			<p class="quote">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
+			sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio
+			sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor
+			a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>
+			<p class="name">Jane Galadriel</p>
+			<p class="post">Ceo Tengkurep</p>
+			<div class="photos">
+				<a class="leftarrow" href="#"></a>
+				<div class="photo"><img height="45px" width="45px" src="images/photo1.png"></div>
+				<div class="photo"><img height="45px" width="45px" src="images/photo2.png"></div>
+				<div class="photo"><img height="70px" width="70px" src="images/photo3.png"></div>
+				<div class="photo"><img height="45px" width="45px" src="images/photo4.png"></div>
+				<div class="photo"><img height="45px" width="45px" src="images/photo5.png"></div>
+				<a class="rightarrow" href="#"></a>
+			</div>
+		</div>
+	</section>
+	<section class="feedback">
+		<div class="container">
+			<div class="anchor"><i id="contact"></i></div>
+			<div class="textinput">
+				<h2 class="primarytext">Give us a good news</h2>
+				<form action="#">
+					<div class="form"><input type="text" class="form-control" name="name" placeholder="Name" required></div>
+					<div class="form"><input type="email" class="form-control" name="email" placeholder="Email" required></div>
+					<div class="form"><input type="text" class="form-control" name="subject" placeholder="Subject" required></div>
+					<div class="form"><textarea class="form-control" name="message" style="width: 462px; min-width: 462px;
+					max-width: 462px; height: 174px; min-height: 174px; max-height: 220px;" placeholder="Your message.."></textarea></div>
+					<input type="submit" value="submit" class="button" style="background-color: transparent;">
+				</form>
+			</div>
+			<div class="container2">
+				<h2 class="primarytext">Our Happy Client</h2>
+				<div class="clients">
+					<div class="client-logo"><img src="images/zara-logo.png"></div>
+					<div class="client-logo"><img src="images/mango-logo.png"></div>
+					<div class="client-logo"><img src="images/barneys-logo.png"></div>
+					<div class="client-logo"><img src="images/gucci-logo.png"></div>
+					<div class="client-logo"><img src="images/ck-logo.png"></div>
+					<div class="client-logo"><img src="images/nike-logo.png"></div>
+					<div class="client-logo"><img src="images/converse-logo.png"></div>
+					<div class="client-logo"><img src="images/puma-logo.png"></div>
+					<div class="client-logo"><img src="images/levis-logo.png"></div>
+					<div class="client-logo"><img src="images/billabong-logo.png"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="container">
+			<div class="footertop">
+				<div class="about">
+					<a href="#"><img class="logo" src="images/logo.png"></a>
+					<p class="secondarytext">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste corporis nobis recusandae cupiditate, facilis sint. A ipsum, voluptatum aliquam, omnis maiores optio repudiandae accusantium cupiditate aut adipisci id iusto dolore magnam ad vitae modi consectetur architecto eius ea. Earum in odit inventore ullam doloribus dolorem aut molestias eligendi culpa placeat.</p>
+				</div>
+				<div class="contacts">
+					<h2 class="footer_primarytext">Our Studio</h2>
+					<p class="secondarytext">Ruko cucruk, Jl. Radio luar dalem jos
+					No.12 - 13, Kalideres - Jakarta Barat 11480 - Indonesia</p>
+					<span class="secondarytext">(+62) 21-2224 3333</span>
+				</div>
+				<div class="subscription">
+					<h2 class="footer_primarytext">Stay in Touch</h2>
+					<form action="#">
+						<div class="form"><input type="text" name="sub-email" placeholder="Subscribe our newsletter.." required></div>
+						<input type="submit" class="button" value="Subscribe" name="sub-submit" style="width: 211px; height: 45px;">
+					</form>
+					<div class="social">
+						<a href="#"><i class="fb"></i></a>
+						<a href="#"><i class="tw"></i></a>
+						<a href="#"><i class="drb"></i></a>
+						<a href="#"><i class="ig"></i></a>
+						<a href="#"><i class="yt"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="navigation">
+				<nav>
+					<a class="menu-element" href="#">Help</a>
+					<a class="menu-element" href="#">Terms &amp; Condition</a>
+					<a class="menu-element" href="#">Privacy</a>
+				</nav>
+				<p class="copyright">Made by Frontend Criminal, 2017</p>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
